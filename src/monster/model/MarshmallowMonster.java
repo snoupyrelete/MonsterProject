@@ -11,14 +11,14 @@ public class MarshmallowMonster
 	
 	
 	
-	public MarshmallowMonster()
+	public MarshmallowMonster() // Default constructor
 	{
 		this.name = "Urnmu G'uk"; // plate
 		this.hairCount = 2.2; // pretzel
 		this.hasBellyButton = false; // n/a
-		this.noseCount = 1; // mike n ike
-		this.armCount = 3; // licorice 
-		this.eyeCount = 4; // m n m
+		this.noseCount = -29292; // mike n ike
+		this.armCount = 100; // licorice 
+		this.eyeCount = -2299; // m n m
 	}
 	
 	public MarshmallowMonster(String name, double hairCount, boolean hasBellyButton, int noseCount, int armCount, int eyeCount)
@@ -32,10 +32,4 @@ public class MarshmallowMonster
 	}
 }
 
-/* 1 arm,
- *  2 noses,
- *  2.3 hair, 
- *  1 eye, 
- *  named Urnmu G'uk, 
- *  no belly button
- */
+
