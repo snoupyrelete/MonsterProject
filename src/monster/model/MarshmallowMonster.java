@@ -30,6 +30,39 @@ public class MarshmallowMonster
 		this.armCount= armCount;
 		this.eyeCount = eyeCount;
 	}
+	
+	public String toString() // Return type of string
+	{
+		String description = "My monster's name is " + this.name + ".\n" + "My monster has " + this.hairCount + " hair(s) \n";
+		
+		return description;
+	}
+	
+	// GETTERS
+	public String getName()
+	{
+		return name;
+	}
+	public double getHairCount()
+	{
+		return hairCount;
+	}
+	public boolean getHasBellyButton() 
+	{
+		return hasBellyButton;
+	}
+	public int getNoseCount()
+	{
+		return noseCount;
+	}
+	public int getArmCount()
+	{
+		return armCount;
+	}
+	public int getEyeCount()
+	{
+		return eyeCount;
+	}
 }
 
 

@@ -13,7 +13,7 @@ public class MonsterController
 	
 	public void start() // Methods
 	{
-		 System.out.println("Here is my monster: " + firstMonster);
+		 System.out.println(firstMonster);
 	}
 	
 }
