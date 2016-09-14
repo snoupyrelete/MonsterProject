@@ -13,7 +13,11 @@ public class MonsterController
 	
 	public void start() // Methods
 	{
-		 System.out.println(firstMonster);
+		 System.out.println(firstMonster.getHairCount());
+		 if(firstMonster.getEyeCount() == 1)
+		 {
+			 System.out.println("My monster is a cyclops!");
+		 }
 	}
 	
 }
