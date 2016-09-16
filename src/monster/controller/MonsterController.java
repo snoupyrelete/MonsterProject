@@ -19,10 +19,10 @@ public class MonsterController
 	{
 		// Using Getters (usually .getSomeVariable)
 		System.out.println(firstMonster.getHairCount());
-//		 if (firstMonster.getEyeCount() == 1)
-//		 {
-//			 System.out.println("My monster is a cyclops!");
-//		 }
+		 if (firstMonster.getEyeCount() == 1)
+		 {
+			 System.out.println("My monster is a cyclops!");
+		 }
 		 firstMonster.setHairCount(11.2);
 		 System.out.println(firstMonster.getHairCount());
 		 System.out.println("Greetings earthling, would you like to give me a human name, to better blend in and overtake your race?");
@@ -38,10 +38,20 @@ public class MonsterController
 		 else
 		 {
 			 System.out.println("Fine, I'll take over the world anyways!");
-			 while (true);
-			 {
-				 System.out.println("x");
-			 }
 		 } 
+		 
+		 System.out.println("Would you like to give plastic surgery to make me more aesthetically pleasing?");
+		 String doSurgery = keyboardInput.nextLine();
+		 
+		 if (doSurgery.equals("yes")) 
+		 {
+			 System.out.println("How many hairs should I have? (as a decimal)");
+			 double newHair = keyboardInput.nextDouble();
+			 firstMonster.setHairCount(newHair);
+			 
+			 System.out.println("Should I have a belly button? (true or false)");
+			 boolean newBellyButton = keyboardInput.nextBoolean();
+			 firstMonster.setHasBellyButton(newBellyButton);
+		 }
 	}
 }
