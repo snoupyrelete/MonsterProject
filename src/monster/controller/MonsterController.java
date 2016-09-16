@@ -21,6 +21,7 @@ public class MonsterController
 		System.out.println(firstMonster.getHairCount());
 		 if (firstMonster.getEyeCount() == 1)
 		 {
+			 System.out.println("╭(◕◕ ◉෴◉ ◕◕)╮");
 			 System.out.println(" ---");
 			 System.out.println(" |\u2299|");
 			 System.out.println(" ---");
@@ -60,6 +61,7 @@ public class MonsterController
 			 boolean newBellyButton = keyboardInput.nextBoolean();
 			 firstMonster.setHasBellyButton(newBellyButton);
 		 }
+		
 //		 System.out.println(firstMonster);
 	}
 }
