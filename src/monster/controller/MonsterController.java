@@ -8,12 +8,14 @@ public class MonsterController
 	
 	public MonsterController()
 	{
+		// Call to constructor with keyword "new"
 		firstMonster = new MarshmallowMonster("Dave", 329.87, false, 12, 9, 1);
 	}
 	
 	public void start() // Methods
 	{
-		 System.out.println(firstMonster.getHairCount());
+		// Using Getters usually .getSomeVariable
+		System.out.println(firstMonster.getHairCount());
 		 if(firstMonster.getEyeCount() == 1)
 		 {
 			 System.out.println("My monster is a cyclops!");

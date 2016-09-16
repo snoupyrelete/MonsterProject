@@ -9,9 +9,7 @@ public class MarshmallowMonster
 	private int armCount; 
 	private int eyeCount;
 	
-	
-	
-	public MarshmallowMonster() // Default constructor
+	public MarshmallowMonster() // Default constructor, could delete this, it's not necessary.
 	{
 		this.name = "Urnmu G'uk"; // plate
 		this.hairCount = 2.2; // pretzel
@@ -31,9 +29,10 @@ public class MarshmallowMonster
 		this.eyeCount = eyeCount;
 	}
 	
+	// Override java's toString() 
 	public String toString() // Return type of string
 	{
-		String description = "My monster's name is " + this.name + ".\n" + "My monster has " + this.hairCount + " hair(s) \n";
+		String description = "My monster's name is " + this.name;
 		
 		return description;
 	}
@@ -62,6 +61,31 @@ public class MarshmallowMonster
 	public int getEyeCount()
 	{
 		return eyeCount;
+	}
+	// SETTERS 
+	public void setName(String name)
+	 {
+		this.name = name;
+	 }
+	public void setHairCount(double hairCount)
+	{
+		this.hairCount = hairCount;
+	}
+	public void setHasBellyButton(boolean hasBellyButton)
+	{
+		this.hasBellyButton = hasBellyButton;
+	}
+	public void setNoseCount(int noseCount)
+	{
+		this.noseCount = noseCount;
+	}
+	public void setArmCount(int noseCount)
+	{
+		this.noseCount = noseCount;
+	}
+	public void setEyeCount(int eyeCount)
+	{
+		this.eyeCount = eyeCount;
 	}
 }
 
