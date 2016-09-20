@@ -61,7 +61,54 @@ public class MonsterController
 			 boolean newBellyButton = keyboardInput.nextBoolean();
 			 firstMonster.setHasBellyButton(newBellyButton);
 		 }
-		
-//		 System.out.println(firstMonster);
+		 
+		 //loopMonster();
+		 secondLoops();
 	}
+	private void secondLoops()
+	{
+		 for(int counter = 0; counter < 10; counter++)
+		 {
+			 System.out.println("hi");
+		 }
+		 
+		 for(int peopleOnEarth = 7; peopleOnEarth != 0; peopleOnEarth--)
+		 {
+			System.out.print("TERMINATED"); 
+		 }
+		 
+		 int counter = 0;
+		 while(counter < 10)
+		 {
+			 System.out.println("I strongly dislike kaden");
+			 counter++;
+		 }
+		 
+		 int index = 0;
+		 while (index < 10)
+		 {
+			 System.out.println("The current index is " + index);
+			 index++;
+		 }
+		  
+		 int[] array = {1, 2, 3,}; 
+		 
+		 for (int indexOfArray: array)
+		 {
+			 System.out.println("This is a for each loop");
+		 }
+		 
+		 
+	
+	}
+//	private void loopMonster()
+//	{
+//		int numberOfTimes = 0;
+//		System.out.println("COMMENCE ALIEN TAKEOVER");
+//		while(numberOfTimes < 1000)
+//		{
+//			System.out.print("First monster words " + firstMonster + ". ");
+//			numberOfTimes++;
+//		}
+//	}
 }
