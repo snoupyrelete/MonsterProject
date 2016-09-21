@@ -17,23 +17,7 @@ public class MonsterController
 	
 	public void start() // Methods
 	{
-		// Using Getters (usually .getSomeVariable)
-		System.out.println(firstMonster.getHairCount());
-		 if (firstMonster.getEyeCount() == 1)
-		 {
-			 System.out.println("╭(◕◕ ◉෴◉ ◕◕)╮");
-			 System.out.println(" ---");
-			 System.out.println(" |\u2299|");
-			 System.out.println(" ---");
-			 System.out.println("  | ");
-			 System.out.println("--|--");
-			 System.out.println("  | ");
-			 System.out.println(" / \\");
-			 System.out.println("My monster is a cyclops!");
-		 }
-		 firstMonster.setHairCount(11.2);
-		 System.out.println(firstMonster.getHairCount());
-		 
+		
 		 askMonsterQuestions();
 		 //loopMonster();
 		 secondLoops();
@@ -86,6 +70,25 @@ public class MonsterController
 //	}
 	private void askMonsterQuestions()
 	{
+		
+		// Using Getters (usually .getSomeVariable)
+		System.out.println(firstMonster.getHairCount());
+		if (firstMonster.getEyeCount() == 1)
+		{
+			System.out.println("╭(◕◕ ◉෴◉ ◕◕)╮");
+			System.out.println(" ---");
+		    System.out.println(" |\u2299|");
+			System.out.println(" ---");
+			System.out.println("  | ");
+			System.out.println("--|--");
+			System.out.println("  | ");
+			System.out.println(" / \\");
+			System.out.println("My monster is a cyclops!");
+		}
+		firstMonster.setHairCount(11.2);
+		System.out.println(firstMonster.getHairCount());
+				 
+				 
 		 System.out.println("Greetings earthling, would you like to give me a human name, to better blend in and overtake your race?");
 		 String answer = keyboardInput.nextLine();
 		 
