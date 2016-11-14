@@ -37,7 +37,7 @@ public class MarshmallowMonster
 		return description;
 	}
 	
-	// GETTERS
+	//  GETTERS
 	public String getName()
 	{
 		return name;
